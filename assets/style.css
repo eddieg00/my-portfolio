@@ -62,7 +62,7 @@ nav a{
   position: relative;
   width: 100%;
   height: 400px;
-  background-image: url(../images/02-hero-bg-project.jpg) ;
+  background-image: url(/assets/images/shutterstock-1665254809.webp) ;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,14 +132,73 @@ nav a{
   grid-template-columns: 1fr 1fr;
 }
 
+.BoxArea:hover {
+  box-shadow: 15px 15px 15px 15px red;
+  /* background-blend-mode: darken; */
+}
+
 #box1 {
-  background-image:url("./images/joro.jpg");
+  background-image:url('/assets/images/where-to-travel-in-2022-1640200544.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   /* background-blend-mode: color-burn; */
 }
 
-.BoxArea:hover {
-  box-shadow: 15px 15px 15px red;
-  /* background-blend-mode: darken; */
+#box2 {
+  background-image:url('/assets/images/travel-industry-air.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-blend-mode: color-burn; */
+}
+
+#box3 {
+  background-image:url('/assets/images/redefinefourseasons-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-blend-mode: color-burn; */
+}
+
+#box4 {
+  background-image:url('/assets/images/6-top-ways-to-save-money.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-blend-mode: color-burn; */
+}
+
+#box5 {
+  background-image:url('/assets/images/Hero_Google-Flight-Tracking_ehOFx8k.max-1000x1000.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-blend-mode: color-burn; */
+}
+
+.contacts{
+  position: relative;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px 0;
+  padding: 70px 0;
+  width: 80%;
+  height: 145px;
+  left: 15%;
+  border-left: 5px;
+  border-style: none none none solid;
+  border-color: rgb(0, 0, 0);
+}
+
+.contacts li{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 60px 10px;
+}
+
+.contacts a{
+  padding: 0 0 10px 0;
+  text-decoration: none;
+  font-weight: bold;
+  color:rgb(255, 0, 0); 
+  border-bottom: 5px;
+  border-style: none none solid none;
+  border-color: rgb(255, 0, 0);
+  transform-origin: center;
 }
