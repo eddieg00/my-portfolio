@@ -22,3 +22,8 @@ N/A
 ## License
 
 Please refer to the LICENSE in the repo.
+
+## Website link
+https://eddieg00.github.io/two-stop-travel/
+
+screenshot in assets
