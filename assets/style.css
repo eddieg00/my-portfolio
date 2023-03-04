@@ -131,6 +131,7 @@ nav a{
 
 #box-content {
   position: relative;
+  
   width: 75%;
   height: 100%;
   left: 15%;
@@ -141,6 +142,7 @@ nav a{
   display: grid;
   grid-template-rows: 300px 300px 300px;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
 }
 
 .BoxArea:hover {
@@ -152,9 +154,11 @@ nav a{
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 75%;
+  min-width:75%;
   height: 350px;
   margin-left: 340px;
   margin-right: auto;
+  margin-bottom: 5%;
 }
 
 #box2 {
@@ -179,6 +183,10 @@ nav a{
   background-image:url();
   background-size: cover;
   background-repeat: no-repeat;
+}
+.heading{
+  background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 0));
+  width:40%;
 }
 
 .contacts{
